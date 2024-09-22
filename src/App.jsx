@@ -46,7 +46,7 @@ export default function App() {
   }
 
   React.useEffect(() => {
-    fetch("https://opentdb.com/api.php?amount=5&difficulty=easy&type=multiple")
+    fetch("https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`API call failed with status: ${res.status}`);
