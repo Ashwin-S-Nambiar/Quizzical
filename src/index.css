@@ -6,6 +6,7 @@
 html,body {
   font-family: "Karla", sans-serif;
   color: #293264;
+  background-color: lightyellow;
   background-image: url("./image.jpg");
   background-size: 100%;
   background-size: cover;
