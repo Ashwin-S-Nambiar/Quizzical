@@ -2,7 +2,7 @@
 
 https://quizzical-tawny-alpha.vercel.app/
 
-***Quiz WebApp that access trivia questions from the [Open Trivia Database API](https://opentdb.com/) and score players based on their answers.
+***Quiz WebApp that access trivia questions from the [Open Trivia Database API](https://opentdb.com/) and score players based on their answers.***
 
 ## ⚒️ Built with:
 - HTML 5
