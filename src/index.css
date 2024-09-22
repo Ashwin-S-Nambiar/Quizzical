@@ -3,13 +3,14 @@
   margin: 0;
 }
 
-html,
-body {
+html,body {
   font-family: "Karla", sans-serif;
   color: #293264;
   background-color: lightyellow;
+  background-image: url("./image.jpg");
   background-size: 100%;
   background-size: cover;
+  background-repeat: repeat;
 }
 
 body {
@@ -67,12 +68,15 @@ fieldset {
   margin: 0 auto;
 }
 
+form {
+  padding: 0.48em 0;
+}
+
 .question {
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  font-size: 1.25rem;
-  padding-top: 0.5em;
-  padding: 1em 0.75em;
+  font-size: 1rem;
+  padding: 1em 1.5em;
   color: #293264;
 }
 
@@ -101,7 +105,7 @@ fieldset {
   display: flex;
   flex-direction: column; /*New added */
   border-bottom: 2px solid purple;
-  padding: 0.5em;
+  padding: 0.5em 1em;
   align-content: center;
 }
 
@@ -120,14 +124,14 @@ input[type="radio"] {
 .check--answers {
   background: none;
   display: block;
-  margin: 1.5em auto;
+  margin: 0 auto;
   font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
   color: #ffff;
   background-color: #4d5b9e;
   border-radius: 8px;
-  padding: 1em 1em;
+  padding: 0.75em 1em;
   border: none;
   cursor: pointer;
   user-select: none;
@@ -135,13 +139,14 @@ input[type="radio"] {
 
 .footer {
   display: flex;
+  padding: 1em;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .end--msg {
-  margin: 1.5em auto;
   font-weight: 800;
+  margin: 0.5em auto;
 }
 
 .end--msg > strong {
@@ -170,16 +175,15 @@ input[type="radio"] {
   }
 
   .question {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
   }
 
   .options--cont {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .check--answers {
     font-size: 1.2rem;
-    padding: 1.2em 1.2em;
   }
 
   .end--msg {
@@ -202,20 +206,15 @@ input[type="radio"] {
   }
 
   .question {
-    font-size: 1.6rem;
+    font-size: 1.25rem;
   }
 
   .options--cont {
-    font-size: 1.2rem;
-  }
-
-  .check--answers {
-    font-size: 1.4rem;
-    padding: 1.2em 1.4em;
+    font-size: 1rem;
   }
 
   .end--msg {
-    font-size: 1.35rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -234,7 +233,7 @@ input[type="radio"] {
   }
 
   .question {
-    font-size: 1.7rem;
+    font-size: 1.35rem;
     padding: 0.5em;
   }
 
@@ -243,83 +242,19 @@ input[type="radio"] {
     padding: 0;
   }
 
-  .options--cont {
-    font-size: 1.4rem;
-  }
-
-  .check--answers {
-    font-size: 1.4rem;
-    padding: 1.2em 1.6em;
-  }
-
   .end--msg {
-    font-size: 1.45rem;
+    margin: 0.5em auto;
+    font-size: 1.25rem;
   }  
+
 }
 
 /* lg */
-@media (min-width: 1024px) {
-  .landing--header {
-    font-size: 3.5rem;
-  }
-
-  .landing--text {
-    font-size: 1.6rem;
-  }
-
-  .landing--button {
-    font-size: 1.4rem;
-  }
-
-  .question {
-    font-size: 1.9rem;
-  }
-
-  .options--cont {
-    font-size: 1.5rem;
-  }
-
-  .check--answers {
-    font-size: 1.6rem;
-    padding: 1.2em 1.8em;
-  }
-
-  .end--msg {
-    font-size: 1.55rem;
-  }  
-}
+/* @media (min-width: 1024px) {} */
 
 /* xl */
-@media (min-width: 1280px) {
-  .landing--header {
-    font-size: 3.7rem;
-  }
+/* @media (min-width: 1280px) {} */
 
-  .landing--text {
-    font-size: 1.7rem;
-  }
-
-  .landing--button {
-    font-size: 1.5rem;
-  }
-
-  .question {
-    font-size: 2rem;
-  }
-
-  .options--cont {
-    font-size: 1.6rem;
-  }
-
-  .check--answers {
-    font-size: 1.6rem;
-    padding: 1.2em 1.8em;
-  }
-
-  .end--msg {
-    font-size: 1.6rem;
-  }  
-}
 
 /* 2xl */
 /* @media (min-width: 1536px) {} */
