@@ -100,7 +100,7 @@ fieldset {
 .question-container {
   display: flex;
   flex-direction: column; /*New added */
-  border-bottom: 1px solid purple;
+  border-bottom: 2px solid purple;
   padding: 0.5em;
   align-content: center;
 }
@@ -235,10 +235,12 @@ input[type="radio"] {
 
   .question {
     font-size: 1.7rem;
+    padding: 0.5em;
   }
 
   .question-container {
     flex-direction: row;
+    padding: 0;
   }
 
   .options--cont {
