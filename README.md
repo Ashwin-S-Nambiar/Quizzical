@@ -1,6 +1,6 @@
 # 💭 Quizzical
 
-Live: https://quizzical-tawny-alpha.vercel.app/
+**Live: https://quizzical-tawny-alpha.vercel.app/**
 
 ***Quiz WebApp that access trivia questions from the [Open Trivia Database API](https://opentdb.com/) and score players based on their answers.***
 
